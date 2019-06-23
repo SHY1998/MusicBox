@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+    <TextView
+        android:layout_margin="10dp"
+        android:text="1"
+        android:gravity="center"
+        android:textColor="#0d0c0c"
+        android:textSize="10sp"
+        android:id="@+id/item_music_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/item_music_song"
+            android:text="歌曲名"
+            android:textColor="#0d0c0c"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@id/item_music_song"
+            android:id="@+id/it_music_singer"
+            android:text="歌手"
+            android:textColor="#0d0c0c"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:textColor="#0d0c0c"
+            android:layout_toRightOf="@id/it_music_singer"
+            android:text="时间"
+            android:textSize="15sp"
+            android:layout_below="@id/item_music_song"
+            android:id="@+id/item_music_songLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>
